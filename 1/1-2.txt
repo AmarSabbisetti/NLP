@@ -1,0 +1,7 @@
+The majority of sensitive and personal user data is stored in different Database Management Systems (DBMS).
+For Example, Oracle is frequently used to store corporate data, MySQL serves as the back-end storage for most webstores, and SQLite stores personal data such as SMS messages on a phone or browser bookmarks.
+Each DBMS manages its own storage (within the operating system), thus databases require their own set of forensic tools.
+While database carving solutions have been built by multiple research groups, forensic investigators today still lack the tools necessary to analyze DBMS forensic ar- tifacts.
+The unique nature of database storage and the resulting forensic artifacts require established standards for artifact storage and viewing mechanisms in order for such advanced analysis tools to be developed.
+In this paper, we present 1) a standard storage format, Database Forensic File Format (DB3F), for database forensic tools output that follows the guidelines established by other (file system) forensic tools, and 2) a view and search toolkit, Database Forensic Toolkit (DF-Toolkit), that enables the analysis of data stored in our database forensic format.
+Using our prototype implementation, we demonstrate that our toolkit follows the state-of-the-art design used by current forensic tools and offers easy-to-interpret database artifact search capabilities.

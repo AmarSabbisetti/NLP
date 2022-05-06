@@ -1,0 +1,8 @@
+As of today mobile applications such as WhatsApp or Skype make use of the SQLite database format to store its data.
+From an IT forensics point of view it is therefore essential to extract all information related to an SQLite database.
+In this paper we focus on digital traces in the scope of SQLite that belong to deleted database data.
+We suggest to make use of a structural approach: we analyse the deletion behaviour of SQLite depending on different database parameters, which affect the erasure of database data.
+As SQLite pragmas are an important parameter during deletion, we examine the erasure behaviour dependent on the pragmas in use.
+Based on the results of our analysis, we develop a concept to parse and process deleted records.
+Our concept is implemented within our tool bring2lite, which is evaluated with respect to a common dataset of SQLite files.
+The overall result is that bring2lite achieves the highest recovery rate of approximately 53% compared to eight competing programmes.
